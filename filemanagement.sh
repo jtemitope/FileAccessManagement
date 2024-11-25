@@ -41,7 +41,7 @@ echo "Setting group ownership and permissions for $PROJECT_DIR..."
 chown -R :$GROUP_NAME "$PROJECT_DIR"        # Set group ownership
 chmod -R 770 "$PROJECT_DIR"                 # Full access for group, none for others
 chmod g+s "$PROJECT_DIR"                    # Ensuring that new files inherit group ownership
-echo "Permission and group ownership configured."
+echo "Permission and group ownership successfully configured."
 
 # Creating test files with specific permissions
 echo "Creating test files with specific permissions..."
