@@ -57,12 +57,13 @@ chmod +t "$PROJECT_DIR"
 echo "Sticky bit applied to $PROJECT_DIR. Only file creators can delete their files."
 
 # Final Output
-echo "Project setup complete!"
-echo "Setup complete! Summary of actions:"
+echo "Project setup complete! Summary of actions:"
 echo "- Project directories created at: $PROJECT_DIR"
 echo "- Group '$GROUP_NAME' created and users $USER1, $USER2 added."
 echo "- Permissions set: Full access for group '$GROUP_NAME', no access for others."
 echo "- Test files created with specific permissions."
+
+# Verifying setup
 ls -ld "$PROJECT_DIR"
 ls -l "$PROJECT_DIR/documents"
 ls -l "$PROJECT_DIR/scripts"
