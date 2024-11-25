@@ -48,7 +48,7 @@ echo "Creating test files with specific permissions..."
 touch "$PROJECT_DIR/documents/read_file.txt" "$PROJECT_DIR/scripts/exec_file.sh"
 chmod 440 "$PROJECT_DIR/documents/read_file.txt"        # Read-only permission for group
 chmod 550 "$PROJECT_DIR/scripts/exec_file.sh"           # Execute permission for group
-echo "Test files created: read_file.txt (read-only), exec_file.sh (exceutable)"
+echo "Test files created: read_file.txt (read-only), exec_file.sh (executable)"
 
 # Setting Ownership to a privileged user and adding sticky bit for security
 echo "Setting ownership to $ROOT_USER and applying sticky bit..."
