@@ -11,7 +11,7 @@ USER2="John"
 # Using mkdir -p parent_dir/sub_dir to create nested directories in one go
 echo "Creating project directories..."
 mkdir -p "$PROJECT_DIR/documents" "$PROJECT_DIR/scripts"
-echo "Project directories created at $PROJECT_DIR."
+echo "Project directories created: $PROJECT_DIR/documents, $PROJECT_DIR/scripts."
 
 # Creating the group
 echo "Creating group $GROUP_NAME"
